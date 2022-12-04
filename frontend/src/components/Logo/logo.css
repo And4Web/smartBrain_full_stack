@@ -1,0 +1,10 @@
+.Tilt-custom{
+  background-image: linear-gradient(to right, #6fccfd 0%, #ce1dde 100%);
+  height: 25px;
+  border-radius: 5px;
+}
+.logo-image{
+  padding: 25px;
+  height: 100px;
+  width: 100px
+}
