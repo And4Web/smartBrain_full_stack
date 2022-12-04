@@ -3,10 +3,11 @@ import "./App.css";
 import Navigation from "./components/navigation/Navigation";
 import Logo from "./components/Logo/Logo";
 import ImageLinkForm from "./components/imageLinkForm/ImageLinkForm";
-import FaceRecognition from "./components/faceRecognition/FaceRecognition";
+// import FaceRecognition from "./components/faceRecognition/FaceRecognition";
 import Rank from "./components/rank/Rank";
 
-function App() {
+function App() {   
+
   return (
     <div className="App">
       <Navigation />
@@ -14,7 +15,7 @@ function App() {
         <Logo />
         <Rank />
       </div>
-      <ImageLinkForm />
+      <ImageLinkForm/>
       {/*<FaceRecognition/> */}
     </div>
   );
